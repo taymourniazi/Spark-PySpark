@@ -1,4 +1,4 @@
-##/ fitting census classifier model in Pyspark 
+##/ fitting  census classifier model in Pyspark 
 
 censusRdd = sc.textFile('census.data')
 censusRddSplit = censusRdd.map(lambda x: [e.strip() for e in x.split(',')])
